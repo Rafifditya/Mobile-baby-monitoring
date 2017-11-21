@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rafif.com.baymap.Activity.LoginActivity"
+    android:background="@color/colorPrimary"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/textpostest"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/baymaptulisan"
+            />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:hint="Username"
+            android:id="@+id/edtText_Login_Username"
+            android:inputType="text"
+            android:background="@android:color/white"
+            />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:background="@android:color/white"
+            android:id="@+id/edtText_Login_password"
+            android:hint="Password"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            />
+
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_Login_action"
+            android:layout_marginTop="20dip"
+            android:text="LOGIN"
+            android:layout_gravity="center"
+            android:textColor="#0f4a6c"
+            android:background="@android:color/white"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Not a member? Sign up now."
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/white"
+            android:id="@+id/btn_Login_RegisterLink"
+            android:textSize="15dp"
+            android:background="@null"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+</LinearLayout>

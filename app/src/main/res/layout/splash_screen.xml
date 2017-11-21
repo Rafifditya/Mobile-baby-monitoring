@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    >
+
+    <ImageView
+        android:id="@+id/logobaymap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/baymaptulisan"
+        android:layout_marginBottom="10dp"
+
+        />
+    <TextView
+        android:layout_below="@id/logobaymap"
+        android:id="@+id/captiontulisan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Baby Monitoring Application"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        />
+
+</RelativeLayout>

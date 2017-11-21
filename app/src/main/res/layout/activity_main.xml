@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rafif.com.baymap.Activity.MainActivity">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="25dp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:text="Welcome to Baymapp"
+    android:id="@+id/welcome"
+    android:layout_marginBottom="10dp"
+    />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_below="@id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+    <Button
+        android:id="@+id/logoutbutton"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/nama"
+        android:layout_marginLeft="100dp"
+        android:padding="10dp"
+        android:background="@android:color/holo_red_dark"
+        android:layout_marginRight="100dp"
+        android:text="Sign out"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
