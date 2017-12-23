@@ -2,29 +2,32 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
-    >
+    android:background="@color/colorPrimary" >
 
-    <ImageView
-        android:id="@+id/logobaymap"
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/baymaptulisan"
-        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true">
 
-        />
-    <TextView
-        android:layout_below="@id/logobaymap"
-        android:id="@+id/captiontulisan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="Baby Monitoring Application"
-        android:textColor="@android:color/white"
-        android:textSize="20dp"
-        />
+        <ImageView
+            android:id="@+id/logobaymap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_app"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/captiontulisan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="BAYMAPP"
+            android:fontFamily="@font/original_is_out"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:layout_below="@id/logobaymap" />
+
+    </RelativeLayout>
 
 </RelativeLayout>

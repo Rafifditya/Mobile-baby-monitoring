@@ -2,11 +2,13 @@ package rafif.com.baymap.Activity;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -34,6 +36,7 @@ public class LoginActivity extends AppCompatActivity {
     Button btnLogin, btnRegister;
     SessionManager session;
     ProgressDialog pDialog;
+    ImageView mIvLogo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +49,7 @@ public class LoginActivity extends AppCompatActivity {
         _password = (EditText) findViewById(R.id.edtText_Login_password);
         btnLogin = (Button) findViewById(R.id.btn_Login_action);
         btnRegister = (Button) findViewById(R.id.btn_Login_RegisterLink);
+//        mIvLogo = (ImageView) findViewById(R.id.image_logo);
 
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -70,6 +74,8 @@ public class LoginActivity extends AppCompatActivity {
                 }
             }
         });
+
+//        GlideApp.with(this).load(R.drawable.logo_app).into(mIvLogo);
 
     }
 

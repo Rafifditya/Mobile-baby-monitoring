@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Baymap.iml" filepath="$PROJECT_DIR$/Baymap.iml" />
+      <module fileurl="file://C:\Users\Nadia Widad\AndroidStudioProjects\Mobile-baby-monitoring\Baymap.iml" filepath="C:\Users\Nadia Widad\AndroidStudioProjects\Mobile-baby-monitoring\Baymap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mobile-baby-monitoring.iml" filepath="$PROJECT_DIR$/Mobile-baby-monitoring.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
